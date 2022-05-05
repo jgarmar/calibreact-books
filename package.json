@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-component": "plop"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "axios": "^0.27.2",
+    "axios-case-converter": "^0.9.0",
     "next": "12.1.6",
+    "query-string": "^7.1.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-use": "^17.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.31",
@@ -19,6 +26,7 @@
     "@types/react-dom": "18.0.3",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
+    "plop": "^3.1.0",
     "typescript": "4.6.4"
   }
 }
